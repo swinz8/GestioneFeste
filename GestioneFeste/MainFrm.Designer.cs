@@ -1,6 +1,6 @@
 ﻿namespace GestioneFeste
 {
-    partial class Form1
+    partial class MainFrm
     {
         /// <summary>
         /// Variabile di progettazione necessaria.
@@ -28,10 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // MainFrm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(566, 350);
+            this.Name = "MainFrm";
+            this.Text = "Menù Principale";
+            this.Load += new System.EventHandler(this.MainFrm_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
